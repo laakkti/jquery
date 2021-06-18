@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+header {
+  background-color: #448d76;
+  color: #79bea8;
+}
+
+footer {
+  background-color: #093426;
+  color: #79bea8;
+}
+
+main {
+  background-color: #093426;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.myLink2 a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+.myLink2 a:hover {
+  color: #00ff00;
+}
+
+.myLink3 svg {
+  fill: #448d76;
+}
+
+.myLink3 svg:hover {
+  fill: #00ff00;
+}
+
+.myLink4 {
+  text-decoration: none;
+  color: #212529;
+}
+.myLink4:hover {
+  color: #448d76;
+  /*font-weight: bold;*/
+}
+
+.myLink a {
+  color: #448d76;
+}
+
+.myLink a:hover {
+  color: #448d76;
+  font-weight: bold;
+}
+
+.myLink svg {
+  fill: #448d76;
+}
+
+.myLink svg:hover {
+  fill: #00ff00;
+}
+
+.listoddeven .list-group-item:nth-child(odd) {
+  background: mintcream;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.questionmarkstyle {
+  color: #347b98;
+  cursor: pointer;
+}
+
+.bg-quiz {
+  background-color: #e7f3ef;
+}
+
+.bg-bmi {
+  background-color: #79bea8;
+}
+.bg-tourist {
+  background-color: #e7f3ef;
+}
+.bg-tourist2 {
+  background-color: #79bea8;
+}
+
+.bg-images {
+  background-color: #79bea8;
+}
+
+.bg-index {
+  background-color: #79bea8;
+}
+
+/*parallax-pagella*/
+.text {
+  background-color: #e7f3ef;
+}
+
+/**********************************
+touristTL.html
+accordation konfaamiseen oma luokka 
+**********************************/
+
+.myAccordion .accordionList {
+  padding-left: 0px;
+  margin: -10px;
+}
+
+.myAccordion .accordion-button {
+  background-color: #e7f3ef;
+}
+
+.myAccordion .accordion-button:not(.collapsed) {
+  color: #23483c;
+  background-color: #e7f3ef;
+}
+
+.myAccordion .accordion-button:focus {
+  box-shadow: none;
+}
+
+.myAccordion .accordion-button.collapsed {
+  background: #e7f3ef;
+}
+
+.myAccordion .accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23448D76'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.myAccordion .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23448D76'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+/**************************************
+QUIZ  
+**************************************/
+.quiz ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.wrong {
+  background-color: #d3d3d3;
+  color: #000000;
+}
+
+.right {
+  font-weight: bold;
+  background-color: #79bea8;
+  color: #000000;
+}
+
+/*lisäys jotta objekti piilossa ollessaan ei vie tilaa*/
+.invisible {
+  display: none;
+}

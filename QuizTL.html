@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Quiz, Timo's Bootstrap project - TL</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/laakkonen.css" rel="stylesheet">
+  <meta name="author" content="Timo Laakkonen">
+</head>
+
+<body class='mt-2 mb-2 ms-2 me-2'>
+  <main class="container-fluid">
+    <header class='row'>
+      <div class='mt-3'>
+        <h1>Timo's Bootstrap project</h1>
+      </div>
+
+      <div class='ps-1 pe-1'>
+        <nav class="navbar navbar-dark navbar-expand-md mb-1 mt-1">
+          <button class="navbar-toggler ms-1" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse  ms-1" id="navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="index.html" class="nav-link">My city</a></li>
+              <li class="nav-item"><a href="touristsTL.html" class="nav-link">Tourists</a></li>
+              <li class="nav-item"><a href="imagesTL.html" class="nav-link">Images</a></li>
+              <li class="nav-item"><a href="parallaxTL.html" class="nav-link">Parallax</a></li>
+              <li class="nav-item"><a href="QuizTL.html" class="nav-link active">Quiz</a></li>
+              <li class="nav-item"><a href="BMI.html" class="nav-link">BMI</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+    </header>
+
+    <section class='row mt-2 bg-quiz'>
+
+      <div class="col-md-2 mb-2"></div>
+
+      <div class="col-md-6 quiz">
+        <h2>Quiz</h2>
+        <p>Here are five general information questions. Think about your choice, it's the ultimate, you can no longer
+          change your choice. </p>
+        <div data-question='-1'>
+          <hr>
+          <h6>How many EU Member States have a left-hand traffic in 2009?</h6>
+          <ul>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q1_c1" name="q1" value="0">
+              <label for="q1_c1">five</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q1_c2" name="q1" value="0">
+              <label for="q1_c2">one</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q1_c3" name="q1" value="1">
+              <label for="q1_c3">four</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q1_c4" name="q1" value="0">
+              <label for="q1_c4">six</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="g1_c5" name="q1" value="0">
+              <label for="g1_c5">two</label>
+            </li>
+          </ul>
+          <p class='invisible' id='q1'>UK, Ireland, Malta and Cyprus.</p>
+        </div>
+
+        <div data-question='-1'>
+          <hr>
+          <h6>Which element chemical character is P?</h6>
+          <ul>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q2_c1" name="q2" value="0">
+              <label for="q2_c1">Nitrogen</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q2_c2" name="q2" value="0">
+              <label for="q2_c2">Silicon</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q2_c3" name="q2" value="0">
+              <label for="q2_c3">Palladium</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q2_c4" name="q2" value="1">
+              <label for="q2_c4">Phosphorus</label>
+            </li>
+          </ul>
+          <p class='invisible' id='q2'>The chemical character of nitrogen is N, silicon Si and palladium Pd.</p>
+        </div>
+        <div data-question='-1'>
+          <hr>
+          <h6>Mushrooms belong to </h6>
+          <ul>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q3_c1" name="q3" value="0">
+              <label for="q3_c1">the animal</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q3_c2" name="q3" value="0">
+              <label for="q3_c2">the plant</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q3_c3" name="q3" value="1">
+              <label for="q3_c3">neither</label>
+            </li>
+          </ul>
+          <p class='invisible' id='q3'>Mushrooms make up their own...</p>
+        </div>
+
+        <div data-question='-1'>
+          <hr>
+          <h6>Which of the following does not belong to the basic units of the SI system?</h6>
+          <ul>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q4_c1" name="q4" value="1">
+              <label for="q4_c1">Newton</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q4_c2" name="q4" value="0">
+              <label for="q4_c2">Ampere</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q4_c3" name="q4" value="0">
+              <label for="q4_c3">Kilogram</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q4_c4" name="q4" value="0">
+              <label for="q4_c4">Kandela</label>
+            </li>
+          </ul>
+          <p class='invisible' id='q4'>The basic units are a meter, kilogram, second, ampere, kelvin, mool and
+            kandela.</p>
+        </div>
+        <div data-question='-1'>
+          <hr>
+          <h6>What is the longest river in Europe?</h6>
+          <ul>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q5_c1" name="q5" value="0">
+              <label for="q5_c1">Danube</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q5_c2" name="q5" value="0">
+              <label for="q5_c2">Ural</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q5_c3" name="q5" value="0">
+              <label for="q5_c3">Dnepr</label>
+            </li>
+            <li>
+              <input class="form-check-input answer" type="radio" id="q5_c4" name="q5" value="1">
+              <label for="q5_c4">Volga</label>
+            </li>
+
+          </ul>
+          <p class='invisible' id='q5'>Length 3 692 km.</p>
+        </div>
+
+        <button type="button" class="btn btn-outline-success mb-2 invisible" id='resultBtn'
+          style='pointer-events: none;'>
+          Your result:
+          <span class="badge bg-secondary" id='rightAnswers'></span>
+          <span> of </span>
+          <span class="badge bg-secondary" id='allQuestions'></span>
+        </button>
+      </div>
+
+    </section>
+
+    <footer class='row text-center mt-1'>
+      <div class='col-md-6 text-md-start'>
+        <p>Timo Laakkonen<br>2021 </p>
+      </div>
+      <div class='col-md-6 text-md-end'>
+        <p>Bootstrap and jQuery</p>
+      </div>
+    </footer>
+
+  </main>
+  <!-- some Bootstrap components need popper.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous">
+  </script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+  </script>
+  <script src="./js/mycode.js"></script>
+</body>
+
+</html>
